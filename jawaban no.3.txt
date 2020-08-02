@@ -1,0 +1,14 @@
+Soal 3 Memasukkan Data pada Table
+
+INSERT INTO users (name, email, password)
+VALUES ('john doe', 'john@doe.com' , 'john123'), ('john doe', 'jane@doe.com' , 'jenita123');
+
+
+INSERT INTO categories (name)
+VALUES ('GADGET'), ('CLOTH'), ('MEN'), ('WOMEN'), ('BRANDED');
+
+
+INSERT INTO items (name, description, price, stock, category_id)
+VALUES ('Sumsang b50', 'hape keren dari merek sumsang' , '4000000', '100', '1'),
+       ('Uniklooh', 'baju keren dari brand ternama' , '500000', '50', '2'),
+       ('IMHO Watch', 'jam tangan anak yang jujur banget' , '2000000', '10', '1');
